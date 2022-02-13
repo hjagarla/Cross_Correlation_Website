@@ -1,2 +1,2 @@
-# Cross_Correlation_Website
-DSC180B A09 Cross Correlation Website
+# DSC180B Section A09: Cross Correlation Experimentation
+Authors: Harsha Jagarlamudi, Kelly Kong
