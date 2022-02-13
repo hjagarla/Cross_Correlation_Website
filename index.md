@@ -1,9 +1,4 @@
- — -
-title: DSC180B Section A09: Cross Correlation Experimentation
-description: Authors: Harsha Jagarlamudi, Kelly Kong
- — -
-
-## Welcome to GitHub Pages
+## Cross Correlation
 
 You can use the [editor on GitHub](https://github.com/hjagarla/Cross_Correlation_Website/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
