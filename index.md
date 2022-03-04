@@ -13,7 +13,7 @@ The issue with trying to approach this problem via machine learning models or ne
 
 ### Data
 
-The datasets that we are using has been collected by the San Diego Zoo, which contain .wav files of bird audio from different forests. (idk what else to say lol) 
+The datasets that were used have been collected by the San Diego Zoo, which contain .wav files of bird audio from different sources. The primary data we use for this pipeline come from the Scripps Coastal Audio Reserve and Peru and is unlabeled data. The remaining data is sources from the UCSD Engineers for Exploration team and represent labeled bird audio that is titled with the name of the species of interest. 
 
 Each dataset the San Diego Zoo Conservation Technology Lab (CTL) shares with UCSD Engineers for Exploration will remain the property of San Diego Zoo Wildlife Alliance (SDZWA) and cannot be shared or disseminated any further without first following up with the CTL.
 
