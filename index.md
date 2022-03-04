@@ -27,8 +27,11 @@ If we can improve the workflow and speed up the process of gathering training da
 
 lorem ipsum
 
-<img src="/images/template.png">
-<img src="/images/audio_clip.png">
+<img src = https://github.com/hjagarla/Cross_Correlation_Website/blob/main/images/template.png width = "400" height = "300" />
+<img src = https://github.com/hjagarla/Cross_Correlation_Website/blob/main/images/audio_clip.jpg width = "700" height = "400" />
+Cross Correlation: Human vs. Automated Annotations
+<img src = https://github.com/hjagarla/Cross_Correlation_Website/blob/main/images/spectro.png />
+
 
 ### Analysis 
 
