@@ -27,8 +27,8 @@ If we can improve the workflow and speed up the process of gathering training da
 
 lorem ipsum
 
-<img src="\images\template.png">
-<img src="\images\audio_clip.png">
+<img src="/images/template.png">
+<img src="/images/audio_clip.png">
 
 ### Analysis 
 
