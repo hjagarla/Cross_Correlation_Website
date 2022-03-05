@@ -25,7 +25,7 @@ If we can improve the workflow and speed up the process of gathering training da
 
 ## Methodology / Model
 
-lorem ipsum
+The first step in performing cross-correlation is deciding on data to run the pipeline on. In our case, to make sure cross-correlation was working as intended initially, we chose to run the pipeline on ScreamingPiha audio data. We perform simple exploratory data analysis on these clips and output spectograms to visualize the audio. Following this, we take a template, either a preexisting one or one we make. Then, using SciPy's correlate2d function which performs cross-correlation, we are able to view a spectogram of peaks alongside a local score array that represented our cross correlation model’s prediction on the audio.
 
 <img src = https://github.com/hjagarla/Cross_Correlation_Website/blob/main/images/template.png width = "400" height = "300" />
 <img src = https://github.com/hjagarla/Cross_Correlation_Website/blob/main/images/audio_clip.jpg width = "700" height = "400" />
@@ -35,8 +35,8 @@ Cross Correlation: Human vs. Automated Annotations
 
 ### Analysis 
 
-lorem ipsum
+To test out our pipeline, we took an audio template of the Screaming Piha and ran cross-correlation across 10 different audio files. In general, the cross correlation algorithm, albeit slow, was quite effective at detecting peaks. In some cases where the spectrogram of the audio file was noisy, it could be difficult to detect some peaks and may have incorrectly deemed a section of the audio as a peak where there is none. However, in all of the files, it captured at least 50% of the peaks and in 7 of the 10 audio files we ran the template across, it captured all of the peaks successfully.
 
 ## Results / Conclusion
 
-lorem ipsum
+Overall, we were happy with the performance of the model at the current stage but feel that it could be improved further. It was moderately accurate at detecting peaks of the data but we want to minimize false positives and negatives to approach classification levels closer to that of human annotation. Additionally, running cross-correlation on 10 distinct audio clips took about 40 minutes which when done by a human, would typically take closer to 10 minutes to perform. Cross-correlation does have the advantage of not requiring active input to label data but paired with its imperfect accuracy, we felt that it would currently be preferrable to continue performing human annotations to get labeled data. Moving forward, we want to improve the speed of the cross-correlation algorithm to run it more effectively on larger sets of data. In addition, we want to manually evaluate its effectiveness on different sets of data beyond the Screaming Piha, potentially with different isolation parameters. In addition, we intend to make the pipeline both more fluid and simpler to use so that any template can be passed in alongside full audio data and generate local score arrays with little manual input.
