@@ -25,10 +25,16 @@ If we can improve the workflow and speed up the process of gathering training da
 
 ## Methodology / Model
 
-The first step in performing cross-correlation is deciding on data to run the pipeline on. In our case, to make sure cross-correlation was working as intended initially, we chose to run the pipeline on ScreamingPiha audio data. We perform simple exploratory data analysis on these clips and output spectograms to visualize the audio. Following this, we take a template, either a preexisting one or one we make. Then, using SciPy's correlate2d function which performs cross-correlation, we are able to view a spectogram of peaks alongside a local score array that represented our cross correlation model’s prediction on the audio.
+The first step in performing cross-correlation is deciding on data to run the pipeline on. In our case, to make sure cross-correlation was working as intended initially, we chose to run the pipeline on ScreamingPiha audio data. First we take a template audio clip, that is either preexisting one or one that we make. 
 
 <img src = https://github.com/hjagarla/Cross_Correlation_Website/blob/main/images/template.png width = "400" height = "300" />
+
+Next, We perform simple exploratory data analysis on these clips and output spectograms to visualize the audio. 
+
 <img src = https://github.com/hjagarla/Cross_Correlation_Website/blob/main/images/audio_clip.jpg width = "700" height = "400" />
+
+Then, using SciPy's correlate2d function which performs cross-correlation, we are able to view a spectogram of peaks alongside a local score array that represented our cross correlation model’s prediction on the audio.
+
 Cross Correlation: Human vs. Automated Annotations
 <img src = https://github.com/hjagarla/Cross_Correlation_Website/blob/main/images/spectro.png />
 
