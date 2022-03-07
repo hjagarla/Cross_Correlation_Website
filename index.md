@@ -29,17 +29,17 @@ The first step in performing cross-correlation is deciding on data to run the pi
 
 First we extract a template from an audio clip by listening to the clip itself and looking at the spectrogram. We then isolate a section of the audio containing a peak, and that will be our template for the chosen species clip. 
 
-![Template](https://github.com/hjagarla/Cross_Correlation_Website/blob/main/images/template.png)
+![Template](/images/template.png)
 
 Next using a full length clip (of the same species for demonstration purposes), we perform simple exploratory data analysis by outputting spectograms to visualize the audio. If we zoom into the peaks of this clip, we can see that it is very similar to the template! 
 
-![Audio Clip](https://github.com/hjagarla/Cross_Correlation_Website/blob/main/images/audio_clip.jpg)
+![Audio Clip](/images/audio_clip.jpg)
 
 Then, using SciPy's correlate2d function which performs cross-correlation, we are able to view a spectogram of peaks alongside a local score array that represented our cross correlation model’s prediction on the audio. The model automatically annotates each call and in the figure below, we can see the comparison between the human annotations vs the automated annotations. 
 
 Cross Correlation: Human vs. Automated Annotations
 
-![Spectogram](https://github.com/hjagarla/Cross_Correlation_Website/blob/main/images/spectro.jpg)
+![Spectogram](/images/spectro.jpg)
 
 Here we can see that overall, cross correlation does a good job of annotating the main parts of the call. Although the automated couldn't detect the preliminary calls as a human annotator would, our labeled data for the machine learning models wouldn't require it. 
 
