@@ -41,7 +41,7 @@ Cross Correlation: Human vs. Automated Annotations
 
 ![Spectogram](/images/spectro.png)
 
-Here we can see that overall, cross correlation does a good job of annotating the main parts of the call. Although the automated couldn't detect the preliminary calls as a human annotator would, our labeled data for the machine learning models wouldn't require it. 
+Here we can see that overall, cross-correlation does a good job of annotating the main parts of the call. Although the automated couldn't detect the preliminary calls as a human annotator would, our labeled data for the machine learning models wouldn't require it. 
 
 ### Analysis 
 
